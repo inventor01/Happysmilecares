@@ -27,11 +27,14 @@ body, html {
 
 }
 .page-header{
-  text-align: center;
-  font-family: 'Shift', sans-serif;
-  color:black;
-  font-weight: bold;
+  text-align: left;
+  font-family: "Goudy Stout", Gadget, sans-serif;
+  color:white;
   font-size: 75px;
+  background-image: url('jayfont.png');
+  background-position: 250px;
+  background-repeat: no-repeat;
+  background-size: 1200px;
 
 }
 .text{
@@ -76,4 +79,3 @@ body, html {
   color:#00FFFF;
   background-image: black;
 }
-/* #efefef */
