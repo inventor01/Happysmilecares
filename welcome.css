@@ -1,0 +1,79 @@
+body, html {
+    height: 100%;
+
+
+}
+
+.bgimg {
+    /* Background image */
+    background-image: url('smileface.jpg');
+    /* Full-screen */
+    height: 100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: 500px;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    background-blend-mode: exclusion;
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    background-repeat: no-repeat;
+
+    color:black;
+    font-weight: bold;
+    /* Add a font */
+    font-family:'Shift', sans-serif;
+    /* Set the font-size to 25 pixels */
+
+}
+.page-header{
+  text-align: center;
+  font-family: 'Shift', sans-serif;
+  color:black;
+  font-weight: bold;
+  font-size: 75px;
+
+}
+.text{
+  margin-top: 300px;
+  text-align: center;
+  padding-right: 20px;
+}
+
+
+/* Position text in the top-left corner */
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+
+}
+
+
+/* Position text in the middle */
+.left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center
+
+}
+
+/* Style the <hr> element */
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
+  height:50px;
+  font-size: 20px;
+  font-family: 'Shift', sans-serif;
+  color:#00FFFF;
+  background-image: black;
+}
+/* #efefef */
