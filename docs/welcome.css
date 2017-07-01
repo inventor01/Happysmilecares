@@ -71,11 +71,84 @@ body, html {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: black;
+  background-color: white;
   text-align: center;
-  height:50px;
-  font-size: 20px;
+  height:45px;
+  font-size: 15px;
   font-family: 'Shift', sans-serif;
-  color:#00FFFF;
+  color:black;
   background-image: black;
 }
+
+.button {
+  padding: 15px 25px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color:Gold;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-size: 45px;
+  margin: 0 auto;
+  position: relative;
+  top: 30%;
+  width:35%;
+  height:100px;
+  font-family: monospace;
+  margin-top:100px;
+
+}
+.button:hover {background-color: gray}
+.button:active {
+  background-color: yellow;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+#overlay1{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+#text1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 45px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
