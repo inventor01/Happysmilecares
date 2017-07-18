@@ -14,10 +14,14 @@ body, html {
   background-size: cover;
   height: 20%;
   background-color:white;
+  
+}
+
+.jumbotron img{
   display:block;
   margin-left:auto;
   margin-right:auto;
-}
+} 
 .jumbotron .container {
   position: relative;
   top:100px;
