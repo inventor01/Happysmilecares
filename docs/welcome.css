@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     width: 100%;
-    background-image: url('smileface.jpg') center center no-repeat;
+    background-image: url('smileface.jpg');
     background-size: 500px;
     background-position: center;
     
@@ -9,11 +9,10 @@ body, html {
 
 
 .jumbotron{
-  background-image: url('jayfont.png');
+  background-image: url('jayfont.png') center center no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   height: 20%;
-
   background-color:white;
 }
 .jumbotron .container {
