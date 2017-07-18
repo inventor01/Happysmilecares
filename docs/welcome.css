@@ -4,13 +4,13 @@ body, html {
     background-image: url('smileface.jpg');
     background-size: 500px;
     background-position: center;
-    
+    background-repeat: no-repeat;
 }
 
 
 .jumbotron{
   background-image: url('jayfont.png') center center no-repeat;
-  background-repeat: no-repeat;
+
   background-size: cover;
   height: 20%;
   background-color:white;
