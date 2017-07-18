@@ -9,8 +9,8 @@ body, html {
 
 
 .jumbotron{
-  background-image: url('jayfont.png') center center no-repeat;
-
+  background-image: url('jayfont.png') ;
+  background-position:no-repeat;
   background-size: cover;
   height: 20%;
   background-color:white;
