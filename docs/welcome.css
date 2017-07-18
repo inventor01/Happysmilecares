@@ -31,8 +31,25 @@ body, html {
   background-position: ;
   background-repeat: no-repeat;
   background-size: 1200px;
-
+  background-size: cover;
+  height: 500px;
 }
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
 .text{
   margin-top: 300px;
   text-align: center;
