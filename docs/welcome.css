@@ -31,7 +31,8 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
-  background-color:white;
+  background: rgb(200, 54, 54); /* This is for ie8 and below */
+  background: rgba(200, 54, 54, 0.5); 
 }
 .jumbotron .container {
   position: relative;
