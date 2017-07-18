@@ -26,13 +26,9 @@ body, html {
     /* Set the font-size to 25 pixels */
 
 }
-.page-header{
-  text-align: left;
-  font-family: "Goudy Stout", Gadget, sans-serif;
-  color:white;
-  font-size: 75px;
+.jumbotron{
   background-image: url('jayfont.png');
-  background-position: 250px;
+  background-position: ;
   background-repeat: no-repeat;
   background-size: 1200px;
 
