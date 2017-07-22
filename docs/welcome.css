@@ -1,6 +1,8 @@
 body, html {
     height: 100%;
     width: 100%;
+    min-height:50%;
+    min-width:50%;
     background-image: url('smileface.jpg');
     background-size: 500px;
     background-position: center;
@@ -17,22 +19,6 @@ body, html {
   
 }
 
-.jumbotron .container {
-  position: relative;
-  top:10px;
-  margin: 0 auto;
-}
-.jumbotron h1 {
-  color: #fff;
-  font-size: 48px;
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
-}
-
-.jumbotron p {
-  font-size: 20px;
-  color: #fff;
-}
 
 .text{
   margin-top: 300px;
@@ -41,26 +27,6 @@ body, html {
 }
 
 
-/* Position text in the top-left corner */
-.topleft {
-    position: absolute;
-    top: 0;
-    left: 16px;
-
-}
-
-
-/* Position text in the middle */
-.left {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center
-
-}
-
-/* Style the <hr> element */
 
 .footer {
   position: fixed;
@@ -91,8 +57,8 @@ body, html {
   margin: 0 auto;
   position: relative;
   top: 30%;
-  width:35%;
-  height:100px;
+  width:50%%;
+  height:50%;
   font-family: monospace;
   margin-top:100px;
 
