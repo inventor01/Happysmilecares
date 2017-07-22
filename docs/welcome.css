@@ -13,15 +13,13 @@ body, html {
 .jumbotron{
   background-image: url('jayfont.png') ;
   background-position:no-repeat;
-  background-size: cover;
+  background-size:100%;
   height: 20%;
   background-color:white;
 
 }
 
-#jumbotron1{
-background-position:center center;
-}
+
 
 .text{
   margin-top: 300px;
