@@ -19,6 +19,9 @@ body, html {
 
 }
 
+#jumbotron1{
+background-position:center center;
+}
 
 .text{
   margin-top: 300px;
