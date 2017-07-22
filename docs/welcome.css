@@ -12,10 +12,10 @@ body, html {
 
 .jumbotron{
   background-image: url('jayfont.png') ;
-  background-position:no-repeat;
-  background-size:100%;
-  height: 20%;
-  background-color:black;
+  background-position: no-repeat;
+  background-size:75%;
+  height: 15%;
+  background-color:white;
 
 }
 
