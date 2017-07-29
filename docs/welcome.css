@@ -4,7 +4,7 @@ body, html {
     min-height:50%;
     min-width:50%;
     background-image: url('smileface.jpg');
-   
+    background-size: 45%;
     background-position: center;
     background-repeat: no-repeat;
 }
