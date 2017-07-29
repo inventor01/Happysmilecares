@@ -67,7 +67,7 @@ top:100px;
   width:40%;
   height:17%;
   font-family: monospace;
-
+   margin-bottom:100px;
 
 }
 .button:hover {background-color: gray}
