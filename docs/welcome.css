@@ -10,6 +10,13 @@ body, html {
 }
 
 
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
 .jumbotron{
 
   background-position: center;
